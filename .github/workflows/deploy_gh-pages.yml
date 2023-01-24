@@ -15,8 +15,6 @@ jobs:
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
@@ -33,4 +31,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          publish_dir: ./dist
