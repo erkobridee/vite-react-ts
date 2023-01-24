@@ -13,6 +13,7 @@ const isProduction = `${nodeEnv}` === 'production';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  ...(isProduction ? { base: `/${name}/` } : {}),
+  ...(isProduction ? { base: `/${name}/` } : { build: { sourcemap: true } }),
+
   plugins: [react(), tsconfigPaths()],
 });

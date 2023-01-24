@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import reactLogo from 'assets/react.svg';
 
+import { updatePublicPath } from 'utils/updatePublicPath';
+
 import './App.css';
 
 function App() {
@@ -15,7 +17,11 @@ function App() {
     <div className="flex flex-col space-y-5">
       <div className="flex justify-center space-x-5">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer noopener">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img
+            src={updatePublicPath('vite.svg')}
+            className="logo"
+            alt="Vite logo"
+          />
         </a>
 
         <a href="https://reactjs.org" target="_blank" rel="noreferrer noopener">

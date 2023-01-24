@@ -23,6 +23,10 @@ npm create vite@latest vite-react-ts -- --template react-ts
 ### Development
 
 ```
+npm start
+
+or
+
 npm run dev
 ```
 
