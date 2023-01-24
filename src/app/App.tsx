@@ -2,7 +2,9 @@ import { useState } from 'react';
 
 import reactLogo from 'assets/react.svg';
 
-import { updatePublicPath } from 'utils/updatePublicPath';
+// https://vitejs.dev/guide/assets.html#explicit-url-imports
+// that looks on the public directory
+import viteLogo from '/vite.svg?url';
 
 import './App.css';
 
@@ -17,11 +19,7 @@ function App() {
     <div className="flex flex-col space-y-5">
       <div className="flex justify-center space-x-5">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer noopener">
-          <img
-            src={updatePublicPath('vite.svg')}
-            className="logo"
-            alt="Vite logo"
-          />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
 
         <a href="https://reactjs.org" target="_blank" rel="noreferrer noopener">

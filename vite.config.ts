@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig, splitVendorChunkPlugin } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import react from '@vitejs/plugin-react';
 
@@ -15,5 +15,7 @@ const isProduction = `${nodeEnv}` === 'production';
 export default defineConfig({
   ...(isProduction ? { base: `/${name}/` } : { build: { sourcemap: true } }),
 
-  plugins: [react(), tsconfigPaths()],
+  plugins: isProduction
+    ? [splitVendorChunkPlugin(), react(), tsconfigPaths()]
+    : [react(), tsconfigPaths()],
 });

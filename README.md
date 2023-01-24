@@ -52,6 +52,8 @@ npx degit erkobridee/vite-react-ts ${project_name}
 
 ## Useful References
 
+- [[GitHub] staylor / react-helmet-async](https://github.com/staylor/react-helmet-async)
+
 - [[GitHub] vitejs / vite](https://github.com/vitejs/vite)
 
   - [[GitHub] vitejs / vite - package: create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite)
@@ -69,6 +71,8 @@ npx degit erkobridee/vite-react-ts ${project_name}
 - [[YouTube] Vite is The New Webpack and Create-React-App killer! | CoderOne](https://www.youtube.com/watch?v=9OmnmouE6tw) (2022/04/11)
 
 - [[YouTube] Vite 2.0 Crash Course | Super Fast Build Tool for JavaScript, React, Vue, Svelte, & Lit (2021) | codeSTACKr](https://www.youtube.com/watch?v=LQQ3CR2JTX8) (2021/04/24)
+
+- [Vite code splitting that just works | Sambit Sahoo](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html) (2021/05/23) - Vite is an amazing tool that makes the DX while building apps a lot better. While vite brings pre-configured and optimized build setup with rollup, code-splitting isn't setup effectively. In this article we are going to discuss how to code-split vite powered apps effectively.
 
 ### Vite + TS + React + TailwindCSS
 
