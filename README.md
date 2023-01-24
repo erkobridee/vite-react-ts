@@ -38,6 +38,14 @@ npm run build
 npm run preview
 ```
 
+### Create a new project using this as a template
+
+```
+npx degit erkobridee/vite-react-ts ${project_name}
+```
+
+- [Vite.js > Guide > Getting Started > Community Templates](https://vitejs.dev/guide/#community-templates)
+
 ## Useful References
 
 - [[GitHub] vitejs / vite](https://github.com/vitejs/vite)
@@ -58,4 +66,28 @@ npm run preview
 
 - [[YouTube] Vite 2.0 Crash Course | Super Fast Build Tool for JavaScript, React, Vue, Svelte, & Lit (2021) | codeSTACKr](https://www.youtube.com/watch?v=LQQ3CR2JTX8) (2021/04/24)
 
+### Vite + TS + React + TailwindCSS
+
 - [Setting up a dev environment with React, Vite, and Tailwind | LogRocket Blog](https://blog.logrocket.com/setting-up-dev-environment-react-vite-tailwind/) (2022/06/02) - In this article, we’ll learn about Vite, its advantages, and how to set up a React and Tailwind CSS application using it.
+
+#### Vite Templates
+
+- [reactjs-vite-tailwindcss-boilerplate](https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate) - React 18, TypeScript, Jest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+
+- [react-ts-vite-template](https://github.com/fabien-ml/react-ts-vite-template) - React, TypeScript, Jest, Testing Library, Cypress, ESLint, Prettier, Husky.
+
+- [vite-reactts-tailwind-rtk-eslint](https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint) - React, TypeScript, Tailwind CSS, Redux Toolkit, eslint.
+
+- [vite-react-tailwind-template](https://github.com/Innei/vite-react-tailwind-template) - React 17, TypeScript, Jest, ESLint, Prettier, Husky, Tailwind CSS, PostCSS, pnpm.
+
+- [vite-react-ts-starter](https://github.com/uchihamalolan/vite-react-ts) - React, TypeScript, Jest, ESLint, Prettier, TailwindCSS, Husky, Conventional Commits.
+
+- [vite-react-ts-ghactions-template](https://github.com/pchmn/vite-react-ts-ghactions-template) - React, TypeScript, Vitest + React Testing Library, GitHub Actions + GitHub Pages, ESLint, Prettier, Husky, Commitlint.
+
+- [vite-react-ts-tailwind-v3](https://github.com/huibizhang/template-vite-react-ts-tailwind-v3) - Starter template for React + Typescript + TailwindCSS and prettier-plugin-tailwindcss build-in.
+
+- [vite-react-ts-extended](https://github.com/laststance/vite-react-ts-extended) - React, TypeScript, TailwindCSS, MSW, Axios, Jest, React Testing Library, ESLint, Prettier, GitHub Actions.
+
+- [VRTTV](https://github.com/Drumpy/vrttv-boilerplate) - React + TypeScript + TailwindCSS + ESLint + Prettier + Husky + Conventional Commits + Gitmoji + GitHub Actions + Vercel Deploy.
+
+- [vite-reactts18-eslint-tailwindcss](https://github.com/dserranoc/vite-reactts18-eslint-tailwindcss) - React 18 + TypeScript + ESLint + TailwindCSS.
