@@ -1,6 +1,11 @@
 # vite-react-ts
 
-First contact using [Vite.js](https://vitejs.dev/), [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/)
+First contact using:
+
+- [Vite.js](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
 
 ## Commands
 
