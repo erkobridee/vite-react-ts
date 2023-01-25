@@ -99,3 +99,9 @@ npx degit erkobridee/vite-react-ts ${project_name}
 - [VRTTV](https://github.com/Drumpy/vrttv-boilerplate) - React + TypeScript + TailwindCSS + ESLint + Prettier + Husky + Conventional Commits + Gitmoji + GitHub Actions + Vercel Deploy.
 
 - [vite-reactts18-eslint-tailwindcss](https://github.com/dserranoc/vite-reactts18-eslint-tailwindcss) - React 18 + TypeScript + ESLint + TailwindCSS.
+
+### GitHub Actions
+
+- [[GitHub] peaceiris / actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) - GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.
+
+  - Before the first execution on a github repository, go on the Settings > Code and automation > Actions > General > Workflow permissions, and make sure to have the Read and write permissions selected
