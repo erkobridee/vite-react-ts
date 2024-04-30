@@ -21,14 +21,14 @@
     "deploy": "run-s ci deploy:gh-pages"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-helmet-async": "2.0.4"
   },
   "devDependencies": {
     "@types/node": "20.12.4",
-    "@types/react": "18.2.71",
-    "@types/react-dom": "18.2.22",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "@vitejs/plugin-react": "4.2.1",
@@ -39,7 +39,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "4.6.2",
     "gh-pages": "6.1.1",
     "is-ci": "3.0.1",
     "lint-staged": "15.2.2",
