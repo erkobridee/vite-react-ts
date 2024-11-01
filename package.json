@@ -46,7 +46,7 @@
     "npm-run-all2": "7.0.1",
     "postcss": "8.4.47",
     "postcss-import": "16.1.0",
-    "postcss-nesting": "13.0.0",
+    "postcss-nesting": "13.0.1",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.4.1",
     "simple-git-hooks": "2.11.1",
