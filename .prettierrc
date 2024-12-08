@@ -4,5 +4,5 @@
   "useTabs": false,
   "tabWidth": 2,
   "printWidth": 80,
-  "tailwindConfig": "./tailwind.config.cjs"
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
