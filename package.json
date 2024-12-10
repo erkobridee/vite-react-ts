@@ -44,7 +44,7 @@
     "gh-pages": "6.2.0",
     "globals": "15.13.0",
     "is-ci": "4.1.0",
-    "lint-staged": "15.2.10",
+    "lint-staged": "15.2.11",
     "npm-run-all2": "7.0.1",
     "postcss": "8.4.49",
     "postcss-import": "16.1.0",
