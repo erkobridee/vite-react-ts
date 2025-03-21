@@ -21,14 +21,14 @@
     "deploy": "run-s ci deploy:gh-pages"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-helmet-async": "2.0.5"
   },
   "devDependencies": {
     "@types/node": "22.13.11",
-    "@types/react": "18.3.19",
-    "@types/react-dom": "18.3.5",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
     "@typescript-eslint/eslint-plugin": "8.27.0",
     "@typescript-eslint/parser": "8.27.0",
     "@vitejs/plugin-react": "4.3.4",
