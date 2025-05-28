@@ -45,7 +45,7 @@
     "globals": "16.0.0",
     "is-ci": "4.1.0",
     "lint-staged": "15.5.2",
-    "npm-run-all2": "7.0.2",
+    "npm-run-all2": "8.0.4",
     "postcss": "8.5.3",
     "postcss-import": "16.1.0",
     "postcss-nesting": "13.0.1",
