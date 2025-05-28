@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "22.15.23",
-    "@types/react": "18.3.20",
-    "@types/react-dom": "18.3.6",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
     "@typescript-eslint/eslint-plugin": "8.33.0",
     "@typescript-eslint/parser": "8.33.0",
     "@vitejs/plugin-react": "4.4.1",
