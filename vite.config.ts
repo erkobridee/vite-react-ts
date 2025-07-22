@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite'
 
 import { name } from './package.json';
 
@@ -15,5 +16,9 @@ const isProduction = `${nodeEnv}` === 'production';
 export default defineConfig({
   ...(isProduction ? { base: `/${name}/` } : { build: { sourcemap: true } }),
 
-  plugins: [react(), tsconfigPaths()],
+  plugins: [
+    tailwindcss(),
+    react(),
+    tsconfigPaths()
+  ]
 });
