@@ -4,7 +4,7 @@ module.exports = {
   plugins: {
     'postcss-import': {},
     'tailwindcss/nesting': 'postcss-nesting',
-    tailwindcss: {},
+    '@tailwindcss/postcss': {},
     autoprefixer: {},
 
     // https://tailwindcss.com/docs/optimizing-for-production
