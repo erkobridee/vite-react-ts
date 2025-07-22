@@ -1,21 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
 import './tailwind.css';
 import styles from './index.css?inline';
 
 import App from 'app';
 
-const helmetContext = {};
+const root = createRoot(document.getElementById('root') as HTMLElement);
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <HelmetProvider context={helmetContext}>
-      <Helmet>
-        <style>{styles}</style>
-      </Helmet>
-      <App />
-    </HelmetProvider>
-  </React.StrictMode>,
+root.render(
+  <StrictMode>
+    <style precedence="medium">{styles}</style>
+    <title>Vite + TS + React + TailwindCSS</title>
+    <App />
+  </StrictMode>,
 );
