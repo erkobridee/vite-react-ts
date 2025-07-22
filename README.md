@@ -8,8 +8,6 @@ First contact using:
 
 - [React](https://reactjs.org/)
 
-- [PostCSS](https://postcss.org/)
-
 - [TailwindCSS](https://tailwindcss.com/)
 
 ## Commands
@@ -55,16 +53,10 @@ npx degit erkobridee/vite-react-ts ${project_name}
 - [[GitHub] staylor / react-helmet-async](https://github.com/staylor/react-helmet-async)
 
 - [[GitHub] vitejs / vite](https://github.com/vitejs/vite)
-
   - [[GitHub] vitejs / vite - package: create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite)
 
 - [Vite.js Guide](https://vitejs.dev/guide/)
-
   - [Features](https://vitejs.dev/guide/features.html)
-
-    - [PostCSS](https://vitejs.dev/guide/features.html#postcss)
-
-    - [CSS Pre-processors](https://vitejs.dev/guide/features.html#css-pre-processors)
 
 - [[YouTube] Vite in 100 Seconds | Fireship](https://www.youtube.com/watch?v=KCrXgy8qtjM) (2022/02/23)
 
@@ -103,5 +95,4 @@ npx degit erkobridee/vite-react-ts ${project_name}
 ### GitHub Actions
 
 - [[GitHub] peaceiris / actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) - GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.
-
   - Before the first execution on a github repository, go on the Settings > Code and automation > Actions > General > Workflow permissions, and make sure to have the Read and write permissions selected
