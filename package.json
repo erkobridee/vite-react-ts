@@ -21,16 +21,16 @@
     "deploy": "run-s ci deploy:gh-pages"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "react-helmet-async": "2.0.5",
     "tailwindcss": "4.1.11"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.11",
     "@types/node": "22.16.5",
-    "@types/react": "18.3.23",
-    "@types/react-dom": "18.3.7",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
     "@typescript-eslint/eslint-plugin": "8.38.0",
     "@typescript-eslint/parser": "8.38.0",
     "@vitejs/plugin-react": "4.7.0",
