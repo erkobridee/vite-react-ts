@@ -27,7 +27,7 @@ function App() {
         </a>
       </div>
 
-      <h1>Vite + TypeScript + React + TailwindCSS</h1>
+      <h1>Vite v7.x + TypeScript v5.x + React v19.x + TailwindCSS v4.x</h1>
 
       <div className="flex flex-col justify-center space-y-5">
         <div>
