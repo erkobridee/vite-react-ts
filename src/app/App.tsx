@@ -34,7 +34,7 @@ function App() {
           <button onClick={buttonClickHandler}>count is {count}</button>
         </div>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Edit <code>src/app/App.tsx</code> and save to test HMR
         </p>
       </div>
 
