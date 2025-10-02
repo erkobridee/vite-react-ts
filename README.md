@@ -1,12 +1,11 @@
 # vite-react-ts
 
-First contact using:
-
 - [Vite.js](https://vitejs.dev/)
 
 - [TypeScript](https://www.typescriptlang.org/)
 
-- [React](https://reactjs.org/)
+- [React](https://react.dev/)
+  - [Using TypeScript](https://react.dev/learn/typescript)
 
 - [TailwindCSS](https://tailwindcss.com/)
 
