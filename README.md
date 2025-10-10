@@ -1,4 +1,4 @@
-# vite-react-ts
+# vite-react-ts [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/erkobridee/vite-react-ts)
 
 - [Vite.js](https://vitejs.dev/)
 
