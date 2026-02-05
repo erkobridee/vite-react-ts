@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.18",
-    "@types/node": "24.10.10",
+    "@types/node": "24.10.11",
     "@types/react": "19.2.13",
     "@types/react-dom": "19.2.3",
     "@typescript-eslint/eslint-plugin": "8.54.0",
