@@ -21,13 +21,18 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v7
 
-      - name: Setup Node 24.x
-        uses: actions/setup-node@v7
+      # https://github.com/pnpm/action-setup
+      - uses: pnpm/setup@v2
         with:
-          node-version: 24.x
+          version: 12
+          runtime: node@24
+          install: false
 
-      - name: Install
-        run: npm i
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run svelte check
+        run: pnpm check
 
       - name: Build
-        run: npm run build
+        run: pnpm build
