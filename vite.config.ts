@@ -1,9 +1,14 @@
 import { defineConfig } from 'vite';
-import tsconfigPaths from 'vite-tsconfig-paths';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from '@tailwindcss/vite';
 
-import { name } from './package.json';
+// https://github.com/eslint/eslint/discussions/15305
+import { readFileSync } from 'fs';
+const packageJSON = JSON.parse(
+  readFileSync('./package.json', { encoding: 'utf-8' }),
+);
+
+const { name } = packageJSON;
 
 const nodeEnv = `${process.env.NODE_ENV}`;
 
@@ -16,9 +21,9 @@ const isProduction = `${nodeEnv}` === 'production';
 export default defineConfig({
   ...(isProduction ? { base: `/${name}/` } : { build: { sourcemap: true } }),
 
-  plugins: [
-    tailwindcss(),
-    react(),
-    tsconfigPaths()
-  ]
+  resolve: {
+    tsconfigPaths: true,
+  },
+
+  plugins: [tailwindcss(), react()],
 });
