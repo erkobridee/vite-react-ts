@@ -1,8 +1,18 @@
-name: CI - build and deploy
+name: Deploy to GitHub Pages
 
 on:
+  # Trigger the workflow every time you push to the `main` branch
+  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [main]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -14,16 +24,25 @@ jobs:
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/checkout@v7
+      - name: Checkout your repository using git
+        uses: actions/checkout@v7
 
-      - name: Use Node.js 24.x
-        uses: actions/setup-node@v7
+      # https://github.com/pnpm/action-setup
+      - uses: pnpm/setup@v2
         with:
-          node-version: 24.x
+          version: 12
+          runtime: node@24
+          install: false
+          cache: true
 
-      - run: npm ci
+      - name: Install dependencies
+        run: pnpm install
 
-      - run: npm run prodbuild --if-present
+      - name: Run svelte check
+        run: pnpm check
+
+      - name: Build
+        run: pnpm prodbuild
         env:
           CI: true
 
