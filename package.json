@@ -15,10 +15,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "ci": "cross-env NODE_ENV=production run-s build",
+    "prodbuild": "cross-env NODE_ENV=production run-s build",
     "predeploy:gh-pages": "touch dist/.nojekyll",
     "deploy:gh-pages": "gh-pages -d dist --dotfiles",
-    "deploy": "run-s ci deploy:gh-pages"
+    "deploy": "run-s prodbuild deploy:gh-pages"
   },
   "dependencies": {
     "react": "19.3.0",
