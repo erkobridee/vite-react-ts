@@ -23,7 +23,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run ci --if-present
+      - run: npm run prodbuild --if-present
         env:
           CI: true
 
