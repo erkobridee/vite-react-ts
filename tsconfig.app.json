@@ -22,11 +22,15 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    "baseUrl": ".",
     "paths": {
-      "*": ["src/*"],
+      "*": ["./src/*"],
       "public/*": ["./public/*"]
     }
   },
-  "include": ["src"]
+  "include": [
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
 }
