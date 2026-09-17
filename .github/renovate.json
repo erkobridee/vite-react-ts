@@ -7,7 +7,7 @@
       "minimumReleaseAge": "1 days"
     },
     {
-      "matchPackageNames": ["typescript"],
+      "matchPackageNames": ["eslint", "typescript"],
       "enabled": false
     }
   ]
