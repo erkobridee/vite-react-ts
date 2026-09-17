@@ -26,6 +26,7 @@
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
+    "@eslint/js": "10.0.1",
     "@tailwindcss/vite": "4.3.3",
     "@types/node": "24.13.5",
     "@types/react": "19.3.0",
