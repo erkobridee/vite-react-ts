@@ -20,23 +20,23 @@ npm create vite@latest vite-react-ts -- --template react-ts
 ### Development
 
 ```
-npm start
+pnpm start
 
 or
 
-npm run dev
+pnpm dev
 ```
 
 ### Production Build
 
 ```
-npm run build
+pnpm build
 ```
 
 #### Preview
 
 ```
-npm run preview
+pnpm preview
 ```
 
 ### Create a new project using this as a template
