@@ -22,8 +22,8 @@ importers:
         specifier: 4.3.3
         version: 4.3.3(vite@8.3.2(@types/node@24.19.1)(jiti@2.7.0)(yaml@2.9.1))
       '@ternaus/eslint-plugin-react':
-        specifier: 8.0.2
-        version: 8.0.2(eslint@10.10.0(jiti@2.7.0)(supports-color@7.2.0))
+        specifier: 9.0.0
+        version: 9.0.0(eslint@10.10.0(jiti@2.7.0)(supports-color@7.2.0))
       '@types/node':
         specifier: 24.19.1
         version: 24.19.1
@@ -459,9 +459,9 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
 
-  '@ternaus/eslint-plugin-react@8.0.2':
-    resolution: {integrity: sha512-+UjPWlFqwtJOPZpd+FXofYXtgcH1WyQmrN3mpthIwomP7Y0wfXpYMEUoZpXpLihRGCZGDZ8hx45sRLFXT/vvzg==}
-    engines: {node: ^22.13.0 || ^24.0.0 || ^26.0.0, yarn: '>=4.17.1'}
+  '@ternaus/eslint-plugin-react@9.0.0':
+    resolution: {integrity: sha512-SoRdNPYTCpE3xn+fvOd6TdZjzk3++wdMcWzfZrkPyx4Gntp4NnEEf9dd4//OgHWpaovAfN2qtcI8EzdrU0jpdw==}
+    engines: {node: ^24.15.0 || ^26.0.0}
     peerDependencies:
       eslint: ^10.0.0
 
@@ -1829,7 +1829,7 @@ snapshots:
       tailwindcss: 4.3.3
       vite: 8.3.2(@types/node@24.19.1)(jiti@2.7.0)(yaml@2.9.1)
 
-  '@ternaus/eslint-plugin-react@8.0.2(eslint@10.10.0(jiti@2.7.0)(supports-color@7.2.0))':
+  '@ternaus/eslint-plugin-react@9.0.0(eslint@10.10.0(jiti@2.7.0)(supports-color@7.2.0))':
     dependencies:
       eslint: 10.10.0(jiti@2.7.0)(supports-color@7.2.0)
 
