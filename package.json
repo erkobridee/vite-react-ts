@@ -43,7 +43,7 @@
     "gh-pages": "6.3.0",
     "globals": "17.14.0",
     "is-ci": "4.1.0",
-    "lint-staged": "17.6.0",
+    "lint-staged": "17.6.1",
     "npm-run-all2": "9.0.4",
     "prettier": "3.10.1",
     "prettier-plugin-tailwindcss": "0.8.1",
