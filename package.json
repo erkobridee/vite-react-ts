@@ -29,7 +29,7 @@
     "@tailwindcss/vite": "4.3.5",
     "@ternaus/eslint-plugin-react": "9.0.1",
     "@types/node": "26.6.11",
-    "@types/react": "19.3.2",
+    "@types/react": "19.3.3",
     "@types/react-dom": "19.3.0",
     "@typescript-eslint/eslint-plugin": "8.74.0",
     "@typescript-eslint/parser": "8.74.0",
